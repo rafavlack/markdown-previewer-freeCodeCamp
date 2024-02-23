@@ -1,0 +1,62 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.preview {
+  border: 1px solid #797676;
+}
+
+.textarea, .preview {
+  width: 90%;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textarea {
+  height: auto;
+  color: #fff;
+}
+
+
+pre, code, table {
+  background-color: #97a493;
+  color: #333333;
+}
+
+#preview table {
+  border-collapse: collapse;
+}
+
+#preview th, #preview td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.editor-container, .preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textarea {
+  height: auto;
+}
+
+.preview img {
+  max-width: 70%;
+}
